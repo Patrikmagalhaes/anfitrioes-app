@@ -4,9 +4,9 @@ Este projeto é uma aplicação web com **frontend em React** e **backend em Fla
 
 ## Tecnologias Utilizadas
 
-- **Frontend**: React, Vite
+- **Frontend**: React + typescript, Vite, node
 - **Backend**: Flask, Python
-- **Banco de Dados**: Não utilizado
+- **Banco de Dados**: Não se aplica
 - **Docker**: Para orquestrar a aplicação
 
 ## Instruções para Execução
@@ -18,8 +18,8 @@ Este projeto utiliza **Docker** para facilitar a execução, sem a necessidade d
 1. **Clone o repositório**:
 
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DA_PASTA>
+   git clone https://github.com/Patrikmagalhaes/anfitrioes-app
+   cd anfitrioes-app
 
 2. **Inicie o projeto com Docker**:
 
