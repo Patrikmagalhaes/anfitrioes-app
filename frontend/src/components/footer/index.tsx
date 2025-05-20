@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo src={"../src/assets/afitrioes.png"} alt="Logo" />
+        <Logo src={"../assets/afitrioes.png"} alt="Logo" />
         <TextFooter>Developed by Patrik Magalhães</TextFooter>
       </FooterWrapper>
     </FooterContainer>

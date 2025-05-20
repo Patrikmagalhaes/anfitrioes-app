@@ -4,7 +4,7 @@ export const CountFavorites = () => {
   return (
     <CountWrapper>
       <HeartIcon
-        src={"../src/assets/coracao.png"}
+        src={"../assets/coracao.png"}
         alt="Heart Icon"
       />
       <FavoritesCount>{localStorage.getItem("TotalFavorites")}</FavoritesCount>

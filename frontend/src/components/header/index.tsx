@@ -5,7 +5,7 @@ import { HeaderComponent } from "./Header.style";
 export const Header = () => (
   <HeaderComponent>
     <a href={"http://localhost:5173/  "}>
-      <Logo style={{ height: "100%" }} src={"../src/assets/afitrioes.png"} />
+      <Logo style={{ height: "100%" }} src={"../assets/afitrioes.png"} />
     </a>
     <CountFavorites/>
   </HeaderComponent>

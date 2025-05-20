@@ -74,12 +74,12 @@ export const Card = ({ data }: TypeData) => {
           {favorite === false ? (
             <IconHeart
               onClick={() => addFavorite(data.id)}
-              src={"../src/assets/contorno-coracao.png"}
+              src={"../assets/contorno-coracao.png"}
             />
           ) : (
             <IconHeart
               onClick={() => removeFavorite(data.id)}
-              src={"../src/assets/coracao.png"}
+              src={"../assets/coracao.png"}
             />
           )}
         </div>
