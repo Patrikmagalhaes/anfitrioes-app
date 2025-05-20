@@ -5,7 +5,7 @@ export const ErrorMessage = () => {
   return (
     <ErrorWrapper>
       <ErrorImage
-        src={"../src/assets/sem-resultados.png"}
+        src={"..assets/sem-resultados.png"}
         alt="No results"
       />
       <TitleHero>Acomodações indisponiveis para essa região...</TitleHero>
