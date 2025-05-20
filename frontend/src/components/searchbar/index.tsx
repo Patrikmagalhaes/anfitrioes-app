@@ -22,7 +22,7 @@ export const Searchbar = ({ onSearch }: TypeSearch) => {
           value={cidade}
           placeholder="Digite a cidade que deseja..."
         />
-        <IconSearch src={"../src/assets/procurar.png"} onClick={handleSearch} />
+        <IconSearch src={"../assets/procurar.png"} onClick={handleSearch} />
       </DivSearchBar>
     </div>
   );
