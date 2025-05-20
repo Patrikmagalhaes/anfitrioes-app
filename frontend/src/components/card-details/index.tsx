@@ -2,10 +2,11 @@ import { Container } from "../../styles/styles";
 import { TypeData } from "../../types/acomodacoes";
 import {
   CardText,
-  CardTitle,
+
 } from "../card-accommodation/CardAccommodation.style";
 import { Header } from "../header";
 import {
+  CardTitleDetails,
   ContainerDetails,
   ImageGridContainer,
   LeftImage,
@@ -28,14 +29,15 @@ export const CardDetails = ({ data }: TypeData) => {
               <RightImage src={data.imagem} />
             </RightImageContainer>
           </ImageGridContainer>
-          <CardTitle>{data.nome}</CardTitle>
+          <CardTitleDetails>{data.nome}</CardTitleDetails>
           <CardText>{data.localizacao}</CardText>
           <CardText>R$ {data.preco_noite},00</CardText>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
-            exercitationem quidem sapiente molestias eos maxime eius
-            dignissimos, fuga corporis numquam maiores voluptatibus voluptatum
-            ullam incidunt blanditiis minus ducimus. Animi, quia.
+          <p style={{ fontSize: '2rem', paddingBottom: '10%', paddingTop:'5%', color:'#15005f' }}>
+            Bem-vindo(a) ao seu novo lar! Este imóvel oferece o equilíbrio ideal entre conforto, praticidade e localização. Com espaços bem distribuídos, ele é perfeito para quem busca qualidade de vida, seja para morar sozinho(a), com a família ou compartilhar com amigos.<br/><br/>
+
+            A propriedade conta com ambientes arejados, boa iluminação natural e estrutura funcional para o dia a dia. Localizada em uma região estratégica, próxima a comércios, serviços essenciais, transporte público e vias de acesso, ela proporciona conveniência e mobilidade.<br/><br/>
+
+            Ideal para quem valoriza um ambiente tranquilo, seguro e pronto para receber você. Entre em contato para mais informações ou agendar uma visita!
           </p>
         </ContainerDetails>
       </Container>

@@ -39,14 +39,18 @@ export const TextWrapper = styled.div`
 `
 
 export const CardTitle = styled.h2`
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 10px;
   color: black;
  text-transform: uppercase;
+ margin-top: 3%;
+  background: linear-gradient(90deg, #15005f, #15005f, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `
 
 export const CardText = styled.p`
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #6a6a6a;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;

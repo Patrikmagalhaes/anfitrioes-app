@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { CardTitle } from "../card-accommodation/CardAccommodation.style";
 
 export const ContainerDetails = styled.div`
   max-width: 900px;
@@ -34,6 +35,9 @@ export const RightImageContainer = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column; /* Coloca as imagens empilhadas */
+`;
+export const CardTitleDetails = styled(CardTitle)`
+font-size: 3rem;
 `;
 
 export const RightImage = styled.img`

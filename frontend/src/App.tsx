@@ -14,7 +14,7 @@ export default function App() {
   const [countFavorites, setcountFavorites] = useState<number>(Number(localStorage.getItem("TotalFavorites")));
 
   const fetchAccommodantion = async (cidade?: string) => {
-    let url = "http://127.0.0.1:5000/acomodacoes";
+    let url = "https://anfitrioes-app-backend.onrender.com/acomodacoes";
 
     if (cidade) {
       url += `?cidade=${cidade}`;

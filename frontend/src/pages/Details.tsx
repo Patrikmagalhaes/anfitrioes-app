@@ -10,7 +10,7 @@ export default function Details() {
   const [accommodantion, setAccommodantion] = useState<Acomodacao>();
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:5000/acomodacoes/${id}`)
+    fetch(`https://anfitrioes-app-backend.onrender.com/acomodacoes/${id}`)
     .then(response => response.json())
     .then(data => setAccommodantion(data))
 
